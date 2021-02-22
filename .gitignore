@@ -1,0 +1,4 @@
+node_modules
+
+# プロジェクトの除外パス
+/app/.nuxt/

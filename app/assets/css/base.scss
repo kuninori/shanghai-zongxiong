@@ -1,0 +1,38 @@
+@import './index.scss';
+
+@font-face {
+  font-family: 'Maison Neue Light';
+  font-weight: 300;
+  src: url('/fonts/Maison Neue Light.otf');
+}
+
+@font-face {
+  font-family: 'Maison Neue Medium';
+  font-weight: 600;
+  src: url('/fonts/Maison Neue Medium.otf');
+}
+
+@include pc {
+  #__nuxt .sp-only {
+    display: none;
+  }
+}
+
+@include pc-min {
+  #__nuxt .pc-wide-only {
+    display: none;
+  }
+}
+
+@include sp {
+  #__nuxt .pc-wide-only {
+    display: none;
+  }
+  #__nuxt .pc-only {
+    display: none;
+  }
+}
+
+#__nuxt .notes-aff {
+  vertical-align: center;
+}

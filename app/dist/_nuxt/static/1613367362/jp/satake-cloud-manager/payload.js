@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/jp/satake-cloud-manager", {data:[{}],fetch:[],mutations:void 0});

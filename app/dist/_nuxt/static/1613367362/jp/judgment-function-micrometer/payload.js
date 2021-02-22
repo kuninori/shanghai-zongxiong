@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/jp/judgment-function-micrometer", {data:[{}],fetch:[],mutations:void 0});

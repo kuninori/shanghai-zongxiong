@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/rpa-robot-construction", {data:[{}],fetch:[],mutations:void 0});

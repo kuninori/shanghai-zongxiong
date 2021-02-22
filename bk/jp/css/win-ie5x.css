@@ -1,0 +1,10 @@
+@charset "Shift_JIS";
+
+/* ページの基本構造
+------------------------------------------------------------ */
+body {
+	text-align: center;
+}
+#container {
+	text-align: left;
+}

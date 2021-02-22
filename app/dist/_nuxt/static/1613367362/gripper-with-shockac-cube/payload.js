@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/gripper-with-shockac-cube", {data:[{}],fetch:[],mutations:void 0});

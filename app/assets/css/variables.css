@@ -1,0 +1,95 @@
+@custom-media --sp-min (max-width: 374px);
+@custom-media --sp (max-width: 820px);
+
+@custom-media --tb (min-width: 500px) and (max-width: 820px);
+
+@custom-media --pc (min-width: 821px);
+
+@custom-media --pc-min (min-width: 821px) and (max-width: 1100px);
+
+@custom-media --pc-max (min-width: 1350px);
+
+@define-mixin font-maison-medium {
+  font-family: 'Maison Neue Medium', sans-serif;
+  font-weight: 600;
+}
+
+@define-mixin font-maison {
+  font-family: 'Maison Neue Light', sans-serif;
+  font-weight: 300;
+}
+@define-mixin font-yugo {
+  font-family: 'Yu Gothic', '游ゴシック', YuGothic, '游ゴシック体',
+    'ヒラギノ角ゴ Pro W3', 'メイリオ', sans-serif;
+  font-weight: bold;
+}
+
+@define-mixin img $src, $width, $height, $size: contain {
+  width: $width;
+  height: $height;
+  background: no-repeat $src 50% / $size;
+  text-indent: 110%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+@define-mixin gradient-line {
+  content: '';
+  display: block;
+  height: 1px;
+  background: linear-gradient(to right, #222222, #e7e7e7);
+}
+
+@define-mixin gradient-line-light {
+  content: '';
+  display: block;
+  height: 1px;
+  background: linear-gradient(to right, #646262, #e7e7e7);
+}
+
+@define-mixin s-title18 {
+  color: $c-black;
+  font-size: 18px;
+}
+
+@define-mixin s-text {
+  color: $c-gray;
+  font-size: 16px;
+}
+
+:root {
+  --c-white: #fff;
+  --c-main-bg: #f0f0f0;
+  --c-black: #212121;
+  --c-dark-gray: #555;
+  --c-gray: #666;
+  --c-light-gray: #aaa;
+  --c-line-gray: #d3d3d3;
+
+  --t-body: 16px;
+  --t-title1: 24px;
+  --t-title2: 20px;
+
+  --s-tb-margin: 10%;
+
+  --ease-in-quad: cubic-bezier(0.55, 0.085, 0.68, 0.53);
+  --ease-in-cubic: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  --ease-in-quart: cubic-bezier(0.895, 0.03, 0.685, 0.22);
+  --ease-in-quint: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+  --ease-in-expo: cubic-bezier(0.95, 0.05, 0.795, 0.035);
+  --ease-in-circ: cubic-bezier(0.6, 0.04, 0.98, 0.335);
+
+  --ease-out-quad: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  --ease-out-cubic: cubic-bezier(0.215, 0.61, 0.355, 1);
+  --ease-out-quart: cubic-bezier(0.165, 0.84, 0.44, 1);
+  --ease-out-quint: cubic-bezier(0.23, 1, 0.32, 1);
+  --ease-out-expo: cubic-bezier(0.19, 1, 0.22, 1);
+  --ease-out-circ: cubic-bezier(0.075, 0.82, 0.165, 1);
+
+  --ease-in-out-quad: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  --ease-in-out-cubic: cubic-bezier(0.645, 0.045, 0.355, 1);
+  --ease-in-out-quart: cubic-bezier(0.77, 0, 0.175, 1);
+  --ease-in-out-quint: cubic-bezier(0.86, 0, 0.07, 1);
+  --ease-in-out-expo: cubic-bezier(1, 0, 0, 1);
+  --ease-in-out-circ: cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}

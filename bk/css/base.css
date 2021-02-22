@@ -1,0 +1,307 @@
+@charset "utf-8";
+
+/* BASE
+------------------------------------------------------------ */
+body {
+	margin: 0;
+	padding: 0;
+	background-color:#fafafa;
+}
+#container {
+	width: 850px;
+	margin: 0 auto;
+	color:#330E0E;
+	background-color:#fff;
+}
+#header {
+  position: relative;
+	width:850px;
+	height:95px;
+	background-image:url(../images/header1.gif?v2);
+	margin:0;
+	padding:0;
+}
+
+#main {
+	width:850px;
+}
+img.left {
+	float:left;
+	border:#CCC 1px solid;
+	padding:3px;
+	margin:0 7px 7px 0;
+}
+
+/* FOOTER 
+------------------------------------------------------------*/
+#footer {
+	width:820px;
+	border-top:#A2C6D3 1px solid;
+	margin:10px;
+	padding:5px;
+}
+#footer_contents {
+	width:820px;
+	float:left;
+	height:60px;
+}
+#footer_ad {
+	width:300px;
+	float:left;
+	margin-top:3px;
+}
+#footer_nav{
+	width:500px;
+	float:right;
+	margin-top:3px;
+}
+#copy {
+	width:820px;
+	margin-top:3px;
+}
+
+
+/* HEADER 
+------------------------------------------------------------*/
+
+#headernavi {
+	width:155px;
+	height:54px;
+	background-image:url(../images/header1.gif);
+	margin:0 0 0 695px;
+	padding:0;
+}
+#headernavi ul {
+	padding:0;
+	margin:0;
+}
+#headernavi li {
+	display:inline;
+	list-style-type:none;
+}
+#headernavi li a {
+	height:54px;
+	display:block;
+	float:left;
+	text-indent:-9877em;
+	text-decoration:none;
+	overflow:hidden;
+}
+
+#headernavi li.list_jp a {
+	background:url(../images/header1.gif) no-repeat -695px 0px;
+	width:53px;
+}
+#headernavi li.list_jp a:hover {
+	background:url(../images/header1.gif) no-repeat -695px -95px;
+}
+#headernavi li.list_ind a {
+	background:url(../images/header1.gif) no-repeat -748px 0px;
+	width:50px;
+}
+#headernavi li.list_ind a:hover {
+	background:url(../images/header1.gif) no-repeat -748px -95px;
+}
+#headernavi li.list_acc a {
+	background:url(../images/header1.gif) no-repeat -798px 0px;
+	width:52px;
+}
+#headernavi li.list_acc a:hover {
+	background:url(../images/header1.gif) no-repeat -798px -95px;
+}
+
+#globalnavi {
+	width:706px;
+	height:41px;
+	background-image:url(../images/header1.gif);
+	margin:0 0 0 144px;
+	padding:0;
+}
+#globalnavi ul {
+	padding:0;
+	margin:0;
+}
+#globalnavi li {
+	display:inline;
+	list-style-type:none;
+}
+#globalnavi li a {
+	height:41px;
+	display:block;
+	float:left;
+	text-indent:-9877em;
+	text-decoration:none;
+	overflow:hidden;
+}
+
+#globalnavi li.list_pro a {
+	background:url(../images/header1.gif) no-repeat -144px -54px;
+	width:84px;
+}
+#globalnavi li.list_pro a:hover {
+	background:url(../images/header1.gif) no-repeat -144px -149px;
+}
+#globalnavi li.list_con a {
+	background:url(../images/header1.gif) no-repeat -228px -54px;
+	width:86px;
+}
+#globalnavi li.list_con a:hover {
+	background:url(../images/header1.gif) no-repeat -228px -149px;
+}
+#globalnavi li.list_ele a {
+	background:url(../images/header1.gif) no-repeat -314px -54px;
+	width:155px;
+}
+#globalnavi li.list_ele a:hover {
+	background:url(../images/header1.gif) no-repeat -314px -149px;
+}
+#globalnavi li.list_she a {
+	background:url(../images/header1.gif) no-repeat -469px -54px;
+	width:138px;
+}
+#globalnavi li.list_she a:hover {
+	background:url(../images/header1.gif) no-repeat -469px -149px;
+}
+#globalnavi li.list_mol a {
+	background:url(../images/header1.gif) no-repeat -607px -54px;
+	width:50px;
+}
+#globalnavi li.list_mol a:hover {
+	background:url(../images/header1.gif) no-repeat -607px -149px;
+}
+#globalnavi li.list_bea a {
+	background:url(../images/header1.gif) no-repeat -657px -54px;
+	width:106px;
+}
+#globalnavi li.list_bea a:hover {
+	background:url(../images/header1.gif) no-repeat -657px -149px;
+}
+#globalnavi li.list_goo a {
+	background:url(../images/header1.gif) no-repeat -763px -54px;
+	width:87px;
+}
+#globalnavi li.list_goo a:hover {
+	background:url(../images/header1.gif) no-repeat -763px -149px;
+}
+/* TOPPAGE 
+------------------------------------------------------------*/
+
+#contents_area {
+	width:480px;
+	float:left;
+}
+#photo{
+	width:360px;
+	float:right;
+}
+#box {
+	width:470px;
+	height:70px;
+	background-color:#FFF;
+	margin:0 0 0 10px;
+	padding:0;
+}
+#box ul {
+	padding:0;
+	margin:0;
+}
+#box li {
+	display:inline;
+	list-style-type:none;
+}
+#box li a {
+	height:68px;
+	display:block;
+	float:left;
+	text-decoration:none;
+	overflow:hidden;
+	padding:2px 0 0 20px;
+	margin:5px 5px 0 0;
+}
+
+#box li.con a {
+	background:url(../images/topbox.jpg) no-repeat 0px 0px;
+	width:210px;
+}
+#box li.con a:hover {
+	background:url(../images/topbox.jpg) no-repeat 0px -70px;
+}
+#box li.ele a {
+	background:url(../images/topbox.jpg) no-repeat -230px 0px;
+	width:210px;
+}
+#box li.ele a:hover {
+	background:url(../images/topbox.jpg) no-repeat -230px -70px;
+}
+#box li.she a {
+	background:url(../images/topbox.jpg) no-repeat -460px 0px;
+	width:210px;
+}
+#box li.she a:hover {
+	background:url(../images/topbox.jpg) no-repeat -460px -70px;
+}
+#box li.mol a {
+	background:url(../images/topbox.jpg) no-repeat -690px 0px;
+	width:210px;
+}
+#box li.mol a:hover {
+	background:url(../images/topbox.jpg) no-repeat -690px -70px;
+}
+#box li.bea a {
+	background:url(../images/topbox.jpg) no-repeat -920px 0px;
+	width:210px;
+}
+#box li.bea a:hover {
+	background:url(../images/topbox.jpg) no-repeat -920px -70px;
+}
+#box li.goo a {
+	background:url(../images/topbox.jpg) no-repeat -1150px 0px;
+	width:210px;
+}
+#box li.goo a:hover {
+	background:url(../images/topbox.jpg) no-repeat -1150px -70px;
+}
+
+.headerlogo {
+	color: #FFFFFF;
+	background-image: url("../images/logo.png");
+	width: 296px;
+	height: 29px;
+	background-repeat: no-repeat;
+	padding-left: 0;
+	margin: 0;
+	font-size: 0;
+	line-height: 0;
+	position: absolute;
+	left: 40px;
+	top: 20px;
+	overflow: hidden;
+	text-indent: 110%;
+}
+
+.headerlogo a{
+	display: block;
+	height: 100%;
+}
+
+.headerinfo {
+	position: absolute;
+	left: 395px;
+	top: 20px;
+}
+.headerinfo p {
+	margin: 0 0 3px;
+	font-size: 9pt;
+	color: #2976b7;
+	line-height: 1.1;
+	font-weight: bold;
+}
+.headerinfo span {
+
+}
+.headerinfo a {
+	color: #2976b7;
+}
+.headerinfo a:hover {
+	text-underline: none;
+}

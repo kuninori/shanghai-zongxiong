@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/picking-indicator", {data:[{}],fetch:[],mutations:void 0});

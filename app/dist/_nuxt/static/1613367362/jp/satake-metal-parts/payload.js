@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/jp/satake-metal-parts", {data:[{}],fetch:[],mutations:void 0});

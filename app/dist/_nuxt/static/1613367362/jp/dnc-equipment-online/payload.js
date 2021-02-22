@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/jp/dnc-equipment-online", {data:[{}],fetch:[],mutations:void 0});
